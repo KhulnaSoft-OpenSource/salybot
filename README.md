@@ -13,13 +13,7 @@ If you are looking to code live on stream, you probably have these skills to mak
 
 ## ComfyJS
 
-Comfy.JS lets you integrate with Twitch chat for your Twitch channel SUPER EASILY in just a few lines of code. Here's a quick 3-min video on how to use it: (Click image to open video)
-
-[![ComfyJS How-To Video](https://img.youtube.com/vi/oXpPwnUQCCk/hqdefault.jpg)](https://www.youtube.com/watch?v=oXpPwnUQCCk)
-
 If you would like to see this chat command working live on the air here is a clip of me interacting with the basic `!yo` command.
-
-![!yo in the wild](https://user-images.githubusercontent.com/20134767/86605284-58be0a00-bf5b-11ea-85a4-344a14672519.gif)
 
 **Step 1: In your fork replace the Twitch channel name.**
 
@@ -30,10 +24,6 @@ The name is the thing you will need to change:
     const twitchTvHandle = "bdougieYO";
 
 If you do not have a Twitch account but would like to test this out, you can test this using my chat. I live-stream myself contributing and triaging open-source projects every Tuesday and Friday.
-
-[bdougie.live](https://bdougie.live/)
-
-[![bdougie twitch account](https://user-images.githubusercontent.com/20134767/86605791-016c6980-bf5c-11ea-8250-2c03bb1f3318.png)](https://www.twitch.tv/bdougieyo)
 
 **(WIP) Step 2: Running the chatbot locally**
 After forking this repo, you will need to clone it locally to connect to your own [OneGraph](https://www.onegraph.com/) app. 
