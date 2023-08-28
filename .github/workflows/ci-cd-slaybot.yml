@@ -128,7 +128,7 @@ jobs:
     steps:
       # Drafts your next Release notes as Pull Requests are merged into "master"
       - name: Update release notes 🚀
-        uses: toolmantim/release-drafter@v5.15.0
+        uses: toolmantim/release-drafter@v5.24.0
         with:
           config-name: release-notes.yml
         env:
