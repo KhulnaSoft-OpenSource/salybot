@@ -61,7 +61,7 @@ jobs:
         publish-profile: ${{ secrets.AZURE_STAGING_PROFILE }}
         
     - name: Comment on the PR
-      uses: actions/github-script@v3
+      uses: actions/github-script@v7
       env:
         LINK: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
       with:
